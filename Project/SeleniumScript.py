@@ -1,9 +1,17 @@
 import openpyxl
 import google.generativeai as genai
 from openpyxl.styles import Font, Alignment
+from dotenv import load_dotenv
+import os
 
-# Configure Gemini
-GOOGLE_API_KEY = "AIzaSyAaSko_ML10ndIOzoK7h3JDIs_nlEBTh6w"  # Replace with your API key
+
+load_dotenv()
+
+
+GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY")  
+if not GOOGLE_API_KEY:
+    raise ValueError("GEMINI_API_KEY is not set in the .env file")
+
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash')
 
