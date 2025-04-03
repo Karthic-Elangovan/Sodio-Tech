@@ -1,0 +1,417 @@
+{
+  "buttons": [
+    {
+      "id": "",
+      "classes": [
+        "close"
+      ],
+      "type": "button",
+      "text": "×",
+      "onclick": "",
+      "data-target": "",
+      "data-dismiss": "modal"
+    },
+    {
+      "id": "",
+      "classes": [
+        "btn",
+        "btn-secondary"
+      ],
+      "type": "button",
+      "text": "Close",
+      "onclick": "",
+      "data-target": "",
+      "data-dismiss": "modal"
+    },
+    {
+      "id": "",
+      "classes": [
+        "btn",
+        "btn-primary"
+      ],
+      "type": "button",
+      "text": "Send message",
+      "onclick": "send()",
+      "data-target": "",
+      "data-dismiss": ""
+    },
+    {
+      "id": "",
+      "classes": [
+        "close"
+      ],
+      "type": "button",
+      "text": "×",
+      "onclick": "",
+      "data-target": "",
+      "data-dismiss": "modal"
+    },
+    {
+      "id": "",
+      "classes": [
+        "btn",
+        "btn-secondary"
+      ],
+      "type": "button",
+      "text": "Close",
+      "onclick": "",
+      "data-target": "",
+      "data-dismiss": "modal"
+    },
+    {
+      "id": "",
+      "classes": [
+        "btn",
+        "btn-primary"
+      ],
+      "type": "button",
+      "text": "Sign up",
+      "onclick": "register()",
+      "data-target": "",
+      "data-dismiss": ""
+    },
+    {
+      "id": "",
+      "classes": [
+        "close"
+      ],
+      "type": "button",
+      "text": "×",
+      "onclick": "",
+      "data-target": "",
+      "data-dismiss": "modal"
+    },
+    {
+      "id": "",
+      "classes": [
+        "btn",
+        "btn-secondary"
+      ],
+      "type": "button",
+      "text": "Close",
+      "onclick": "",
+      "data-target": "",
+      "data-dismiss": "modal"
+    },
+    {
+      "id": "",
+      "classes": [
+        "btn",
+        "btn-primary"
+      ],
+      "type": "button",
+      "text": "Log in",
+      "onclick": "logIn()",
+      "data-target": "",
+      "data-dismiss": ""
+    },
+    {
+      "id": "",
+      "classes": [
+        "close"
+      ],
+      "type": "button",
+      "text": "×",
+      "onclick": "",
+      "data-target": "",
+      "data-dismiss": "modal"
+    },
+    {
+      "id": "",
+      "classes": [
+        "btn",
+        "btn-secondary"
+      ],
+      "type": "button",
+      "text": "Close",
+      "onclick": "",
+      "data-target": "",
+      "data-dismiss": "modal"
+    },
+    {
+      "id": "",
+      "classes": [
+        "navbar-toggler",
+        "navbar-toggler-right"
+      ],
+      "type": "button",
+      "text": "",
+      "onclick": "",
+      "data-target": "#navbarExample",
+      "data-dismiss": ""
+    },
+    {
+      "id": "prev2",
+      "classes": [
+        "page-link"
+      ],
+      "type": "",
+      "text": "Previous",
+      "onclick": "",
+      "data-target": "",
+      "data-dismiss": ""
+    },
+    {
+      "id": "next2",
+      "classes": [
+        "page-link"
+      ],
+      "type": "",
+      "text": "Next",
+      "onclick": "",
+      "data-target": "",
+      "data-dismiss": ""
+    }
+  ],
+  "links": [
+    {
+      "id": "nava",
+      "classes": [
+        "navbar-brand"
+      ],
+      "href": "index.html",
+      "text": "PRODUCT STORE",
+      "data-toggle": "",
+      "data-target": ""
+    },
+    {
+      "id": "",
+      "classes": [
+        "nav-link"
+      ],
+      "href": "index.html",
+      "text": "Home(current)",
+      "data-toggle": "",
+      "data-target": ""
+    },
+    {
+      "id": "",
+      "classes": [
+        "nav-link"
+      ],
+      "href": "#",
+      "text": "Contact",
+      "data-toggle": "modal",
+      "data-target": "#exampleModal"
+    },
+    {
+      "id": "",
+      "classes": [
+        "nav-link"
+      ],
+      "href": "#",
+      "text": "About us",
+      "data-toggle": "modal",
+      "data-target": "#videoModal"
+    },
+    {
+      "id": "cartur",
+      "classes": [
+        "nav-link"
+      ],
+      "href": "cart.html",
+      "text": "Cart",
+      "data-toggle": "",
+      "data-target": ""
+    },
+    {
+      "id": "login2",
+      "classes": [
+        "nav-link"
+      ],
+      "href": "#",
+      "text": "Log in",
+      "data-toggle": "modal",
+      "data-target": "#logInModal"
+    },
+    {
+      "id": "logout2",
+      "classes": [
+        "nav-link"
+      ],
+      "href": "#",
+      "text": "Log out",
+      "data-toggle": "",
+      "data-target": ""
+    },
+    {
+      "id": "nameofuser",
+      "classes": [
+        "nav-link"
+      ],
+      "href": "#",
+      "text": "",
+      "data-toggle": "",
+      "data-target": ""
+    },
+    {
+      "id": "signin2",
+      "classes": [
+        "nav-link"
+      ],
+      "href": "#",
+      "text": "Sign up",
+      "data-toggle": "modal",
+      "data-target": "#signInModal"
+    },
+    {
+      "id": "",
+      "classes": [
+        "carousel-control-prev"
+      ],
+      "href": "#carouselExampleIndicators",
+      "text": "Previous",
+      "data-toggle": "",
+      "data-target": ""
+    },
+    {
+      "id": "",
+      "classes": [
+        "carousel-control-next"
+      ],
+      "href": "#carouselExampleIndicators",
+      "text": "Next",
+      "data-toggle": "",
+      "data-target": ""
+    },
+    {
+      "id": "cat",
+      "classes": [
+        "list-group-item"
+      ],
+      "href": "",
+      "text": "CATEGORIES",
+      "data-toggle": "",
+      "data-target": ""
+    },
+    {
+      "id": "itemc",
+      "classes": [
+        "list-group-item"
+      ],
+      "href": "#",
+      "text": "Phones",
+      "data-toggle": "",
+      "data-target": ""
+    },
+    {
+      "id": "itemc",
+      "classes": [
+        "list-group-item"
+      ],
+      "href": "#",
+      "text": "Laptops",
+      "data-toggle": "",
+      "data-target": ""
+    },
+    {
+      "id": "itemc",
+      "classes": [
+        "list-group-item"
+      ],
+      "href": "#",
+      "text": "Monitors",
+      "data-toggle": "",
+      "data-target": ""
+    }
+  ],
+  "inputs": [
+    {
+      "id": "recipient-email",
+      "type": "text",
+      "classes": [
+        "form-control"
+      ],
+      "name": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "recipient-name",
+      "type": "text",
+      "classes": [
+        "form-control"
+      ],
+      "name": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "sign-username",
+      "type": "text",
+      "classes": [
+        "form-control"
+      ],
+      "name": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "sign-password",
+      "type": "password",
+      "classes": [
+        "form-control"
+      ],
+      "name": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "loginusername",
+      "type": "text",
+      "classes": [
+        "form-control"
+      ],
+      "name": "",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "loginpassword",
+      "type": "password",
+      "classes": [
+        "form-control"
+      ],
+      "name": "",
+      "placeholder": "",
+      "value": ""
+    }
+  ],
+  "forms": [
+    {
+      "id": "",
+      "action": "",
+      "method": "",
+      "classes": [],
+      "onsubmit": ""
+    },
+    {
+      "id": "",
+      "action": "",
+      "method": "",
+      "classes": [],
+      "onsubmit": ""
+    },
+    {
+      "id": "",
+      "action": "",
+      "method": "",
+      "classes": [],
+      "onsubmit": ""
+    },
+    {
+      "id": "",
+      "action": "",
+      "method": "",
+      "classes": [],
+      "onsubmit": ""
+    },
+    {
+      "id": "frm",
+      "action": "",
+      "method": "",
+      "classes": [],
+      "onsubmit": "return false"
+    }
+  ]
+}
