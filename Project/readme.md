@@ -38,9 +38,23 @@ This project automates the process of UI testing by combining web scraping, AI-g
 - Basic understanding of Selenium
 
 ### Installation
-1. Install dependencies:
+1. Clone repository:
+```bash
+git clone https://github.com/Karthic-Elangovan/Sodio-Tech.git
+cd Sodio-Tech
+cd Project
+```
+
+
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+
+3. Set up environment variables:
+```bash
+GEMINI_API_KEY = your_api_key_here > .env
 ```
 
 
@@ -56,20 +70,21 @@ python scraping.py
 python model.py
 ```
 
+
 3. **Generate Selenium Scripts**:
 ```bash
-python .py
+python SeleniumScript.py
 ```
 
 ## File Structure
 
-Project
+```
+Projects
 ├── elements.json            # Extracted UI elements
 ├── test_cases.xlsx          # Generated test scenarios
-├── test_scripts.xlsx        # Selenium scripts
+├── test_scripts.xlsx        # Generated Selenium scripts
 ├── scraping.py              # Task 1 script
 ├── model.py                 # Task 2 script
-├── SeleniumScript.py        # Task 3 script
+├── Selenium_Script.py       # Task 3 script
 └── requirements.txt         # Dependencies
-
-
+```
